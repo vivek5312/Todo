@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Todo List</title>
+  <style>
+    .todo-item {
+      margin-bottom: 10px;
+    }
+
+    .todo-item .checkbox {
+      margin-right: 10px;
+    }
+
+    .delete-btn {
+      margin-left: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Todo List</h1>
+
+  <form id="todo-form">
+    <input type="text" id="todo-name" placeholder="Todo Name" required>
+    <input type="text" id="todo-description" placeholder="Todo Description" required>
+    <button type="submit">Add Todo</button>
+  </form>
+ <h2>To-Do Work Pending</h2>
+  <ul id="list"></ul>
+
+  <h2>To-Do Work Done</h2>
+  <ul id="work">
+    
+  </ul>
+
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"></script>
+ <script src="to.js"></script>
+</body>
+</html>
